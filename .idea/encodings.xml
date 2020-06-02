@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dgmall-common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dgmall-manage-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dgmall-manage-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dgmall-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dgmall-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dgmall-service-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dgmall-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dgmall-user-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dgmall-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dgmall-web-util/src/main/java" charset="UTF-8" />
+  </component>
+</project>

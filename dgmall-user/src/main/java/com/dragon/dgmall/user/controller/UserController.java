@@ -17,8 +17,6 @@ public class UserController {
     UserService userService;
 
 
-
-
     //添加会员
     @RequestMapping("addUser")
     @ResponseBody
@@ -28,10 +26,10 @@ public class UserController {
 
         int i = userService.addUser(umsMember);
 
-        if (i==1) {
-            result="插入成功";
-        }else{
-            result="插入失败";
+        if (i == 1) {
+            result = "插入成功";
+        } else {
+            result = "插入失败";
         }
 
         return result;
@@ -40,29 +38,30 @@ public class UserController {
     //删除会员
     @RequestMapping("deleteUser")
     @ResponseBody
-    public String deleteUser(String umsMember){
+    public String deleteUser(String umsMember) {
         String result = null;
         int i = userService.deleteUser(umsMember);
 
-        if (i==1) {
-            result="删除成功";
-        }else{
-            result="删除失败";
+        if (i == 1) {
+            result = "删除成功";
+        } else {
+            result = "删除失败";
         }
 
         return result;
     }
+
     //更新会员
     @RequestMapping("updateUser")
     @ResponseBody
-    public String updateUser(String umsMember,String username){
+    public String updateUser(String umsMember, String username) {
         String result = null;
-        int i = userService.updateUser(umsMember,username);
+        int i = userService.updateUser(umsMember, username);
 
-        if (i==1) {
-            result="更新成功";
-        }else{
-            result="更新失败";
+        if (i == 1) {
+            result = "更新成功";
+        } else {
+            result = "更新失败";
         }
 
         return result;
@@ -99,53 +98,56 @@ public class UserController {
     //获得所有收货地址
     @RequestMapping("selectAllMemberReceiveAddress")
     @ResponseBody
-    public List<UmsMemberReceiveAddress> selectAllMemberReceiveAddress(String id,String memberId){
+    public List<UmsMemberReceiveAddress> selectAllMemberReceiveAddress(String id, String memberId) {
         List<UmsMemberReceiveAddress> list = userService.selectAllMemberReceiveAddress();
 
 
         return list;
     }
+
     //添加收货地址
     @RequestMapping("addMemberReceiveAddress")
     @ResponseBody
-    public String addMemberReceiveAddress(String id,String memberId){
+    public String addMemberReceiveAddress(String id, String memberId) {
         String result = null;
-        int i = userService.addMemberReceiveAddress(id,memberId);
+        int i = userService.addMemberReceiveAddress(id, memberId);
 
-        if (i==1) {
-            result="添加收货地址成功";
-        }else{
-            result="添加收货地址失败";
+        if (i == 1) {
+            result = "添加收货地址成功";
+        } else {
+            result = "添加收货地址失败";
         }
 
         return result;
     }
+
     //删除收货地址
     @RequestMapping("deleteMemberReceiveAddress")
     @ResponseBody
-    public String deleteMemberReceiveAddress(String id){
+    public String deleteMemberReceiveAddress(String id) {
         String result = null;
         int i = userService.deleteMemberReceiveAddress(id);
 
-        if (i==1) {
-            result="删除收货地址成功";
-        }else{
-            result="删除收货地址失败";
+        if (i == 1) {
+            result = "删除收货地址成功";
+        } else {
+            result = "删除收货地址失败";
         }
 
         return result;
     }
+
     //更改收获地址
     @RequestMapping("updateMemberReceiveAddress")
     @ResponseBody
-    public String updateMemberReceiveAddress(String id,String memberId){
+    public String updateMemberReceiveAddress(String id, String memberId) {
         String result = null;
-        int i = userService.updateMemberReceiveAddress(id,memberId);
+        int i = userService.updateMemberReceiveAddress(id, memberId);
 
-        if (i==1) {
-            result="更改收货地址成功";
-        }else{
-            result="更改收货地址失败";
+        if (i == 1) {
+            result = "更改收货地址成功";
+        } else {
+            result = "更改收货地址失败";
         }
 
         return result;

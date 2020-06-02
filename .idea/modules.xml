@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DGmall.iml" filepath="$PROJECT_DIR$/.idea/DGmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-api/dgmall-api.iml" filepath="$PROJECT_DIR$/dgmall-api/dgmall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-common-util/dgmall-common-util.iml" filepath="$PROJECT_DIR$/dgmall-common-util/dgmall-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-manage-service/dgmall-manage-service.iml" filepath="$PROJECT_DIR$/dgmall-manage-service/dgmall-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-manage-web/dgmall-manage-web.iml" filepath="$PROJECT_DIR$/dgmall-manage-web/dgmall-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-parent/dgmall-parent.iml" filepath="$PROJECT_DIR$/dgmall-parent/dgmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-service-util/dgmall-service-util.iml" filepath="$PROJECT_DIR$/dgmall-service-util/dgmall-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-user/dgmall-user.iml" filepath="$PROJECT_DIR$/dgmall-user/dgmall-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-user-service/dgmall-user-service.iml" filepath="$PROJECT_DIR$/dgmall-user-service/dgmall-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-user-web/dgmall-user-web.iml" filepath="$PROJECT_DIR$/dgmall-user-web/dgmall-user-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-web-util/dgmall-web-util.iml" filepath="$PROJECT_DIR$/dgmall-web-util/dgmall-web-util.iml" />
+    </modules>
+  </component>
+</project>

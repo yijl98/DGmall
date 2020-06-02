@@ -19,7 +19,6 @@ public class UserServiceImpl implements UserService {
     UmsMemberReceiveAddressMapper umsMemberReceiveAddressMapper;
 
 
-
     @Override
     public List<UmsMember> getAllUser() {
 
@@ -31,7 +30,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<UmsMemberReceiveAddress> getMemberReceiveAddressByMemberId(String memberId) {
 
-        UmsMemberReceiveAddress umsMemberReceiveAddress=new UmsMemberReceiveAddress();
+        UmsMemberReceiveAddress umsMemberReceiveAddress = new UmsMemberReceiveAddress();
         umsMemberReceiveAddress.setMemberId(memberId);
 
         List<UmsMemberReceiveAddress> select = umsMemberReceiveAddressMapper.select(umsMemberReceiveAddress);
@@ -41,7 +40,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int addUser(String umsMember) {
-        UmsMember umsmember=new UmsMember();
+        UmsMember umsmember = new UmsMember();
         umsmember.setId(umsMember);
 
         int result = userMapper.insert(umsmember);
@@ -51,7 +50,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int deleteUser(String umsMember) {
-        UmsMember umsmember=new UmsMember();
+        UmsMember umsmember = new UmsMember();
         umsmember.setId(umsMember);
 
         int result = userMapper.delete(umsmember);
@@ -61,7 +60,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int updateUser(String umsMember, String username) {
-        UmsMember umsmember=new UmsMember();
+        UmsMember umsmember = new UmsMember();
         umsmember.setId(umsMember);
         umsmember.setUsername(username);
 
@@ -73,7 +72,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public int addMemberReceiveAddress(String id, String memberId) {
 
-        UmsMemberReceiveAddress UmsMemberReceiveAddress=new UmsMemberReceiveAddress();
+        UmsMemberReceiveAddress UmsMemberReceiveAddress = new UmsMemberReceiveAddress();
         UmsMemberReceiveAddress.setId(id);
         UmsMemberReceiveAddress.setMemberId(memberId);
 
@@ -84,7 +83,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int deleteMemberReceiveAddress(String id) {
-        UmsMemberReceiveAddress UmsMemberReceiveAddress=new UmsMemberReceiveAddress();
+        UmsMemberReceiveAddress UmsMemberReceiveAddress = new UmsMemberReceiveAddress();
         UmsMemberReceiveAddress.setId(id);
 
         int result = umsMemberReceiveAddressMapper.delete(UmsMemberReceiveAddress);
@@ -94,7 +93,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int updateMemberReceiveAddress(String id, String memberId) {
-        UmsMemberReceiveAddress UmsMemberReceiveAddress=new UmsMemberReceiveAddress();
+        UmsMemberReceiveAddress UmsMemberReceiveAddress = new UmsMemberReceiveAddress();
         UmsMemberReceiveAddress.setId(id);
         UmsMemberReceiveAddress.setMemberId(memberId);
 
@@ -106,7 +105,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<UmsMemberReceiveAddress> selectAllMemberReceiveAddress() {
 
-        List<UmsMemberReceiveAddress> list=umsMemberReceiveAddressMapper.selectAll();
+        List<UmsMemberReceiveAddress> list = umsMemberReceiveAddressMapper.selectAll();
 
         return list;
     }

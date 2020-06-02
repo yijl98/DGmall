@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dgmall-user-web" />
+        <module name="dgmall-api" />
+        <module name="dgmall-web-util" />
+        <module name="dgmall-user-service" />
+        <module name="dgmall-manage-service" />
+        <module name="dgmall-manage-web" />
+        <module name="dgmall-common-util" />
+        <module name="dgmall-service-util" />
+        <module name="dgmall-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="dgmall-api" target="1.5" />
+      <module name="dgmall-common-util" target="1.8" />
+      <module name="dgmall-manage-service" target="1.8" />
+      <module name="dgmall-manage-web" target="1.8" />
+      <module name="dgmall-parent" target="1.8" />
+      <module name="dgmall-service-util" target="1.8" />
+      <module name="dgmall-user" target="1.8" />
+      <module name="dgmall-user-service" target="1.8" />
+      <module name="dgmall-user-web" target="1.8" />
+      <module name="dgmall-web-util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="dgmall-manage-service" options="" />
+      <module name="dgmall-manage-web" options="" />
+      <module name="dgmall-user" options="" />
+      <module name="dgmall-user-web" options="" />
+    </option>
+  </component>
+</project>

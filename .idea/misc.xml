@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/dgmall-user/pom.xml" />
+        <option value="$PROJECT_DIR$/dgmall-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/dgmall-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dgmall-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/dgmall-service-util/pom.xml" />
+        <option value="$PROJECT_DIR$/dgamll-web-util/pom.xml" />
+        <option value="$PROJECT_DIR$/dgmall-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dgmall-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/dgmall-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dgmall-manage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/dgmall-web-util/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
