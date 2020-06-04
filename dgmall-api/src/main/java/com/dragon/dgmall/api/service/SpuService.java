@@ -1,7 +1,6 @@
 package com.dragon.dgmall.api.service;
 
-import com.dragon.dgmall.api.bean.PmsBaseSaleAttr;
-import com.dragon.dgmall.api.bean.PmsProductInfo;
+import com.dragon.dgmall.api.bean.*;
 
 import java.util.List;
 
@@ -15,4 +14,12 @@ public interface SpuService {
     int saveProductSaleAttr(PmsProductInfo pmsProductInfo);
 
     int saveProductSaleAttrValue(PmsProductInfo pmsProductInfo);
+
+    int saveProductImage(PmsProductInfo pmsProductInfo);
+
+    List<PmsProductSaleAttr> getSpuSaleAttrList(String spuId);
+
+    List<PmsProductSaleAttrValue> getSpuSaleAttrValueList(String spuId,String attrSaleId);
+
+    List<PmsProductImage> getSpuImageList(String spuId);
 }

@@ -4,8 +4,6 @@ package com.dragon.dgmall.manage.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.dragon.dgmall.api.bean.PmsBaseAttrInfo;
 import com.dragon.dgmall.api.bean.PmsBaseAttrValue;
-import com.dragon.dgmall.api.bean.PmsBaseCatalog3;
-import com.dragon.dgmall.api.bean.PmsBaseSaleAttr;
 import com.dragon.dgmall.api.service.AttrService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -26,9 +24,14 @@ public class AttrController {
     @ResponseBody
     public List<PmsBaseAttrInfo> attrInfoList(String catalog3Id){
 
-        List<PmsBaseAttrInfo> list=attrService.attrInfoList(catalog3Id);
+        List<PmsBaseAttrInfo> PmsBaseAttrInfoList=attrService.attrInfoList(catalog3Id);
+        for (PmsBaseAttrInfo attrInfo : PmsBaseAttrInfoList) {
 
-        return list;
+            List<PmsBaseAttrValue> PmsBaseAttrValueList=attrService.getAttrValueList(attrInfo.getId());
+            attrInfo.setAttrValueList(PmsBaseAttrValueList);
+        }
+
+        return PmsBaseAttrInfoList;
     }
 
     @RequestMapping("getAttrValueList")

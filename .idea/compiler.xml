@@ -7,14 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dgmall-user-web" />
+        <module name="fastdfs-client-java" />
         <module name="dgmall-api" />
         <module name="dgmall-web-util" />
-        <module name="dgmall-user-service" />
+        <module name="dgmall-user" />
         <module name="dgmall-manage-service" />
         <module name="dgmall-manage-web" />
-        <module name="dgmall-common-util" />
         <module name="dgmall-service-util" />
-        <module name="dgmall-user" />
+        <module name="dgmall-user-service" />
+        <module name="dgmall-common-util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +30,7 @@
       <module name="dgmall-user-service" target="1.8" />
       <module name="dgmall-user-web" target="1.8" />
       <module name="dgmall-web-util" target="1.8" />
+      <module name="fastdfs-client-java" target="1.6" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

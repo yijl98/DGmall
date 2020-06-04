@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/dgmall-user-service/dgmall-user-service.iml" filepath="$PROJECT_DIR$/dgmall-user-service/dgmall-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dgmall-user-web/dgmall-user-web.iml" filepath="$PROJECT_DIR$/dgmall-user-web/dgmall-user-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/dgmall-web-util/dgmall-web-util.iml" filepath="$PROJECT_DIR$/dgmall-web-util/dgmall-web-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" filepath="$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" />
     </modules>
   </component>
 </project>
