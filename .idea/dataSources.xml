@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="MySQL" uuid="dc2b4e7f-71cd-4454-b946-344d80f34837">
-      <driver-ref>mysql.8</driver-ref>
+    <data-source source="LOCAL" name="dgmall@localhost" uuid="f9b7134f-cb75-4025-8b43-19aa3b360f22">
+      <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/dgmall</jdbc-url>
     </data-source>
   </component>

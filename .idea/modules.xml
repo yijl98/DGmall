@@ -5,9 +5,14 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/DGmall.iml" filepath="$PROJECT_DIR$/.idea/DGmall.iml" />
       <module fileurl="file://$PROJECT_DIR$/dgmall-api/dgmall-api.iml" filepath="$PROJECT_DIR$/dgmall-api/dgmall-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dgmall-common-util/dgmall-common-util.iml" filepath="$PROJECT_DIR$/dgmall-common-util/dgmall-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-item-service/dgmall-item-service.iml" filepath="$PROJECT_DIR$/dgmall-item-service/dgmall-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-item-web/dgmall-item-web.iml" filepath="$PROJECT_DIR$/dgmall-item-web/dgmall-item-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/dgmall-manage-service/dgmall-manage-service.iml" filepath="$PROJECT_DIR$/dgmall-manage-service/dgmall-manage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dgmall-manage-web/dgmall-manage-web.iml" filepath="$PROJECT_DIR$/dgmall-manage-web/dgmall-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/dgmall-parent/dgmall-parent.iml" filepath="$PROJECT_DIR$/dgmall-parent/dgmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-redisson-test/dgmall-redisson-test.iml" filepath="$PROJECT_DIR$/dgmall-redisson-test/dgmall-redisson-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-search-service/dgmall-search-service.iml" filepath="$PROJECT_DIR$/dgmall-search-service/dgmall-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dgmall-search-web/dgmall-search-web.iml" filepath="$PROJECT_DIR$/dgmall-search-web/dgmall-search-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/dgmall-service-util/dgmall-service-util.iml" filepath="$PROJECT_DIR$/dgmall-service-util/dgmall-service-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/dgmall-user/dgmall-user.iml" filepath="$PROJECT_DIR$/dgmall-user/dgmall-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/dgmall-user-service/dgmall-user-service.iml" filepath="$PROJECT_DIR$/dgmall-user-service/dgmall-user-service.iml" />

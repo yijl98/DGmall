@@ -22,4 +22,6 @@ public interface SpuService {
     List<PmsProductSaleAttrValue> getSpuSaleAttrValueList(String spuId,String attrSaleId);
 
     List<PmsProductImage> getSpuImageList(String spuId);
+
+    List<PmsProductSaleAttr> spuSaleAttrListCheckBySku(String productId,String attrSaleId);
 }

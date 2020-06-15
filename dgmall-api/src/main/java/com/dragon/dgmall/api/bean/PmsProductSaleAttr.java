@@ -27,6 +27,8 @@ public class PmsProductSaleAttr implements Serializable {
     @Transient
     List<PmsProductSaleAttrValue> spuSaleAttrValueList;
 
+
+
     public String getId() {
         return id;
     }
@@ -66,4 +68,6 @@ public class PmsProductSaleAttr implements Serializable {
     public void setSpuSaleAttrValueList(List<PmsProductSaleAttrValue> spuSaleAttrValueList) {
         this.spuSaleAttrValueList = spuSaleAttrValueList;
     }
+
+
 }
